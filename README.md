@@ -17,7 +17,7 @@ Take a look at the demo: http://wixel.github.io/jquery-popdown
 ```html
 <a href="/pages/image.html" width="660" class="popdown btn" title="Grumpy Demo">Grumpy Demo</a>
 <a href="/pages/youtube.html" class="popdown btn" title="Youtube Demo">Youtube Demo</a>
-<a href="/pages/content.html?asda" class="popdown btn" title="Content Demo">Content Demo</a>	
+<a href="/pages/content.html" class="popdown btn" title="Content Demo">Content Demo</a>	
 ```
 
 7. Add the following code:
