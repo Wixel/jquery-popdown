@@ -3,7 +3,7 @@ jQuery Popdown Plugin
 
 What is a popdown? It's a simple dialog that pops down from the top of your browser window once it's loaded HTML in the background. A simple way to load web forms, content, user feedback messages, media and any other in place style content. 
 
-Take a look at the demo.
+Take a look at the demo: http://wixel.github.io/jquery-popdown
 
 # How to use it
 
