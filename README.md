@@ -6,7 +6,6 @@ What is a popdown? It's a simple dialog that pops down from the top of your brow
 Take a look at the demo.
 
 # How to use it
----
 
 1. Add the `jquery.popdown.css` file to your page.
 2. Add the images inside the `img` to your images directory.
@@ -30,14 +29,12 @@ $(document).ready(function(){
 ```
 
 # Nuts and Bolts
----
 
 You can buttons (or other elements) that can automatically close the popdown dialog by simply adding: `class="close-popdown"` to the element inside your popdown content. 
 
 You can fully style the underlying dialog by adjusting the `jquery.popdown.css` or even better, the `jquery.popdown.less` file. 
 
 # License
----
 
 The MIT License (MIT)
 
