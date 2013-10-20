@@ -13,7 +13,14 @@ Take a look at the demo.
 4. Make sure jQuery is already included in your page.
 5. Add links to your page and set their `href` attributes to the pages you want loaded in the Popdowns.
 6. Add `class="popdown"` to the links you added in step 4.
-6. Add the following code:
+
+```html
+<a href="/pages/image.html" width="660" class="popdown btn" title="Grumpy Demo">Grumpy Demo</a>
+<a href="/pages/youtube.html" class="popdown btn" title="Youtube Demo">Youtube Demo</a>
+<a href="/pages/content.html?asda" class="popdown btn" title="Content Demo">Content Demo</a>	
+```
+
+7. Add the following code:
 
 ```javascript
 $(document).ready(function(){
