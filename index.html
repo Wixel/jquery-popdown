@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Sean Nieuwoudt" />
+	<meta name="robots" content="all" />
+	<title>jQuery Popdown Plugin Demo</title>
+	<link rel="stylesheet" href="/css/jquery.popdown.css">
+	
+	<style>
+		body, html{
+			background-color:#EEEEEE;
+			font-family: Georgia, Times, "Times New Roman", serif;
+			font-size:26px;
+			text-align:center;
+		}
+		
+		a{
+			color:#00A0C6;
+		}
+		
+		a:hover{
+			color:#13819b;
+		}
+		
+		h1{
+			font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+			font-size:66px;
+			color:#727272;
+			padding-top:0px;
+			margin-top:0;
+		}
+		
+		.contain p{
+			display:block;
+			margin:0 auto;
+			width:720px;
+			color:#B3B3B1;
+			padding-bottom:50px;
+		}
+		
+		p a.btn{
+			display:inline-block;
+			border:4px solid #d8d8d8;
+			color:#d1d1d1;
+			text-decoration:none;
+			padding:10px;
+		  	-webkit-border-radius: 5px;
+		  	-moz-border-radius: 5px;
+		  	border-radius: 5px;		
+		  	-moz-transition-duration: 0.2s;
+		  	-webkit-transition-duration: 0.2s;
+		  	-o-transition-duration: 0.2s;
+		  	transition-duration: 0.2s;	
+		}
+		
+		p a.btn:hover{
+			color:#F7656A;
+			border:4px solid #F7656A;
+		}		
+		
+		a.logo{
+			display:block;
+			text-indent:-9999px;
+			background:url(../img/wixel.png) no-repeat;
+			width:33px;
+			height:33px;
+			margin:100px auto;
+		}
+	
+		div.share{
+			text-align:center;
+		}
+		
+		.small-text{
+			font-size:13px;
+		}
+	</style>
+</head>
+<body class="demo-page">
+
+	<a href="http://wixelhq.com" class="logo" title="Wixel - A custom software development studio">Wixel - A custom software development studio</a>
+		
+	<h1>jQuery Popdown Plugin</h1>
+	
+	<section class="contain">
+		<p>
+			Sometimes you just need a little popdown to spice up your interface. Here are a few examples:
+		</p>
+	
+		<p>
+			<a href="/pages/image.html" width="660" class="popdown btn" title="Grumpy Demo">Grumpy Demo</a>
+			<a href="/pages/youtube.html" class="popdown btn" title="Youtube Demo">Youtube Demo</a>
+			<a href="/pages/content.html?asda" class="popdown btn" title="Content Demo">Content Demo</a>	
+		</p>
+	
+		<p>
+			<img src="/img/browsers.png" alt="Testing on IE, FireFox, Chrome &amp; Safari">
+		</p>
+	
+		<p class="small-text">
+			Please <a href="https://twitter.com/intent/tweet?hashtags=javascript&original_referer=http%3A%2F%2Fjq.dev%2Fdemo.html&related=SeanNieuwoudt&text=Awesome%20jQuery%20Popdown%20Plugin&tw_p=tweetbutton&url=http%3A%2F%2Fjq.dev%2Fdemo.html%23.UmL3uJS6R_r&via=Wixelhq">share on Twitter</a>
+			 or <a href="http://github.com/Wixel/jquery-popdown">download</a> over at Github.
+		</p>
+	</section>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="/lib/jquery.popdown.js" /></script>	
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.popdown').popdown();
+		});
+	</script>
+
+</body>
+</html>

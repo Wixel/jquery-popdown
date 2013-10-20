@@ -1,0 +1,93 @@
+@import "elements"; 
+
+/* --------------------------------------------- */
+/* 			 Popdown Plugin Styling              */
+/* --------------------------------------------- */
+
+/* The dark transparent background */
+#popdown-opacity{
+    background:url(../img/blend-bg.png) repeat;
+}
+
+/* The white dialog itself */
+#popdown-dialog{  
+    background-color: #fff;
+    .drop-shadow(0px, 0px, 10px, 0.1);
+
+    .body{
+        padding:30px;
+    }
+}
+
+/* The dialog loading indicator */
+.popdown-loading{
+    padding:20px;
+    background:url(../img/popdown-loading.gif) no-repeat center center;
+}
+
+/* Added to dialog when loading is complete */
+.popdown-done{}
+	
+/* --------------------------------------------- */
+/* 			 Your Styling Styling                */
+/* --------------------------------------------- */
+div.popdown-content{
+	header{
+		h2{
+			margin:0;
+			padding:0;
+			background-color:#f0f0f0;
+			font-size:16px;
+			text-align:left;
+			padding:15px 10px;
+			font-weight:400;
+			font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+			color:#464646;
+		}
+	}
+	
+	section.body{
+		padding:20px;
+		text-align:left;
+		
+		h3{
+		 	margin:0;
+			padding:0;	
+			font-size:18px;
+			color:#727272;
+			font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+		}
+		
+		p{
+			font-size:16px;
+			color:#B3B3B1;
+		}
+			
+	}
+	
+	footer{
+		padding:0px 20px 20px 0;
+		text-align:right;
+		
+		button{
+			margin:0;
+			padding:0;
+			padding:10px 30px;
+			background-color:#3BB69E;
+			border:none;
+			font-size:12px;
+			cursor:pointer;
+			outline:none;
+			color:#fff;
+			text-transform:uppercase;
+			
+			.rounded(5px);
+			
+			&:hover{
+				background-color:#329c87;
+			}
+		}
+		
+	} /* endof footer */
+	
+} /* endof div.popdown-content*/
