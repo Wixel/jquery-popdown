@@ -1,5 +1,5 @@
 {
-    "name": "Popdown",
+    "name": "jquery-popdown",
     "title": "jQuery Popdown",
     "description": "A super simple jQuery popdown plugin ",
     "keywords": [
@@ -22,11 +22,15 @@
     ],
     "licenses": [
         {
-            "type": "MIT"
+            "type": "MIT",
+			"url": "https://github.com/Wixel/jquery-popdown/blob/master/LICENSE"
         }
     ],
     "bugs": "https://github.com/Wixel/jquery-popdown/issues",
     "homepage": "http://wixel.github.io/jquery-popdown",
     "docs": "https://github.com/Wixel/jquery-popdown",
-    "download": "https://github.com/Wixel/jquery-popdown"
+    "download": "https://github.com/Wixel/jquery-popdown",
+	"dependencies": {
+		"jquery": ">=1.10"
+	}
 }
