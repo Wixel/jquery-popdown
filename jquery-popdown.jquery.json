@@ -1,14 +1,16 @@
 {
     "name": "jquery-popdown",
     "title": "jQuery Popdown",
-    "description": "A super simple jQuery popdown plugin ",
+    "description": "A super simple jQuery popdown dialog plugin",
     "keywords": [
         "dialog",
         "modal",
         "popup",
-        "popdown"
+        "popdown",
+		"ui",
+		"interface"
     ],
-    "version": "0.8.0",
+    "version": "1.0.0",
     "author": {
         "name": "Wixel",
         "url": "http://wixelhq.com"
