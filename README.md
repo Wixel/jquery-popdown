@@ -11,7 +11,7 @@ It's lightweight (4kb) and fast, take a look at the demo's: http://wixel.github.
 2. Add the images inside the `img` to your images directory.
 3. Add the `jquery.popdown.js` file to your page.
 4. Make sure jQuery is already included in your page.
-5. Add links to your page and set their `href` attributes to the pages you want loaded in the Popdowns.
+5. Add links to your page and set their `href` attributes to the pages you want loaded in the Popdowns. 
 6. Add `class="popdown"` to the links you added in step 4.
 
 ```html
