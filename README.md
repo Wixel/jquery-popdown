@@ -34,7 +34,12 @@ $(document).ready(function(){
   $('.popdown').popdown({width:700});
 });
 ```
+You can specify which tag shall close the popdown when clicked on by giving it `.close-popdown` class
+example
 
+```html
+ <a href="#" class="close-popdown">Close</a>
+```
 # Nuts and Bolts
 
 You can buttons (or other elements) that can automatically close the popdown dialog by simply adding: `class="close-popdown"` to the element inside your popdown content. 
