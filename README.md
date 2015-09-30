@@ -34,10 +34,14 @@ $(document).ready(function(){
   $('.popdown').popdown({width:700});
 });
 ```
-
 # Nuts and Bolts
 
 You can buttons (or other elements) that can automatically close the popdown dialog by simply adding: `class="close-popdown"` to the element inside your popdown content. 
+example :
+
+```html
+ <a href="#" class="close-popdown">Close</a>
+```
 
 You can fully style the underlying dialog by adjusting the `jquery.popdown.css` or even better, the `jquery.popdown.less` file. 
 
